@@ -137,7 +137,7 @@ h3.random {
 
 .grey-box {
     background-color: #e5e7eb;
-    margin: 100px 0;
+    margin: 80px 0;
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -163,4 +163,46 @@ h3.random {
     font-size: 36px;
     color: #1f2937;
     align-self: flex-end;
+}
+
+/* blue-box */
+
+.action {
+    display: flex;
+    background-color: #3882f6;
+    padding: 25px 100px;
+    font-weight: 100;
+    font-size: 18px;
+    width: 60%;
+    margin: 0 auto;
+    border-radius: 8px;
+    gap: 16px;
+}
+
+.action .left {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    gap: 5px;
+}
+
+.action h3 {
+    margin: 0;
+}
+
+
+
+.action button {
+    flex: 0 0 auto;
+    align-self: flex-end;
+    background-color: #3882F6;
+    font-weight: 900;
+    border-color: white;
+    border-style: solid;
+    border-radius: 8px;
+    color: white;
+    padding: 0px 24px;
+    height: 30px;
+
+
 }
